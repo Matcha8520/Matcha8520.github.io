@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://touhouchronicle.com/chronicle-vol0/</loc>
+    
+    <lastmod>2026-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://touhouchronicle.com/chronicle-vol1/</loc>
     
     <lastmod>2026-06-09</lastmod>
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://touhouchronicle.com/chronicle-vol4/</loc>
+    <loc>https://touhouchronicle.com/chronicle-vol3/</loc>
     
     <lastmod>2026-06-09</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://touhouchronicle.com/chronicle-vol3/</loc>
+    <loc>https://touhouchronicle.com/chronicle-vol4/</loc>
     
     <lastmod>2026-06-09</lastmod>
     
@@ -156,15 +165,6 @@
   
   <url>
     <loc>https://touhouchronicle.com/contact/</loc>
-    
-    <lastmod>2026-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://touhouchronicle.com/chronicle-vol0/</loc>
     
     <lastmod>2026-06-09</lastmod>
     
