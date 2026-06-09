@@ -37,8 +37,9 @@
       <link rel="alternate" href="/atom.xml" title="東方行狀錄" type="application/atom+xml">
   <!-- 页面元数据 -->
   <title>东方行状录投稿需求 - 東方行狀錄</title>
-  <meta name="keywords" content="投稿,Touhou 東方project">
-  <meta desc name="description" content="東聯印社旗下同人讀物 - 東聯印社 - 東方行狀錄">
+  <meta name="keywords" content="投稿,東方Project,Touhou Project,Touhou Chronicle,東方行狀錄,同人誌,東方同人,幻想鄉,東方文化研究">
+  <meta desc name="description" content="《東方行狀錄》是以東方Project為主題的非營利同人電子期刊， 涵蓋同人創作、社群訪談、活動紀實與文化研究。
+ - 東聯印社 - 東方行狀錄">
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="东方行状录投稿需求">
@@ -47,8 +48,8 @@
 <meta property="og:description" content="投稿需求与联系方式   类别 内容    投稿范围 同人文（短篇约 1000 字左右，中篇约 6 万字左右）、杂谈（含收录和非收录）、游戏&#x2F;音乐鉴赏或推荐、诗歌、插画、封面插画、COS 照片。   文字投稿格式 [体裁] [篇数] [题目] [作者] + 正文附件 （例：[小说] [篇1] [行进歌] [作者] + 附件快录.docx）   文字投稿邮箱 (mailto) text@to">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img.shika-mori.top/picGO/%E9%98%BF%E6%B1%82.png">
-<meta property="article:published_time" content="2025-10-26T22:36:31.000Z">
-<meta property="article:modified_time" content="2026-06-09T03:10:07.590Z">
+<meta property="article:published_time" content="2025-10-26T14:36:31.000Z">
+<meta property="article:modified_time" content="2026-06-09T03:36:39.639Z">
 <meta property="article:author" content="東聯印社">
 <meta property="article:tag" content="投稿">
 <meta name="twitter:card" content="summary">
@@ -726,6 +727,233 @@ button {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   border-bottom: 2px solid var(--color-site-inner);
+}
+.cover-body .title {
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  -khtml-transform: translateY(30px);
+  -moz-transform: translateY(30px);
+  -o-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  animation: titleFade 1.2s ease-out forwards, titleGlow 5s ease-in-out infinite 1.2s;
+  -webkit-animation: titleFade 1.2s ease-out forwards, titleGlow 5s ease-in-out infinite 1.2s;
+  -khtml-animation: titleFade 1.2s ease-out forwards, titleGlow 5s ease-in-out infinite 1.2s;
+  -moz-animation: titleFade 1.2s ease-out forwards, titleGlow 5s ease-in-out infinite 1.2s;
+  -o-animation: titleFade 1.2s ease-out forwards, titleGlow 5s ease-in-out infinite 1.2s;
+  -ms-animation: titleFade 1.2s ease-out forwards, titleGlow 5s ease-in-out infinite 1.2s;
+  letter-spacing: 0.12em;
+}
+.cover-body .subtitle {
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+  -khtml-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -o-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  animation: subtitleFade 1.2s ease-out 0.4s forwards;
+  -webkit-animation: subtitleFade 1.2s ease-out 0.4s forwards;
+  -khtml-animation: subtitleFade 1.2s ease-out 0.4s forwards;
+  -moz-animation: subtitleFade 1.2s ease-out 0.4s forwards;
+  -o-animation: subtitleFade 1.2s ease-out 0.4s forwards;
+  -ms-animation: subtitleFade 1.2s ease-out 0.4s forwards;
+}
+@-moz-keyframes titleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -khtml-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+@-webkit-keyframes titleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -khtml-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+@-o-keyframes titleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -khtml-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+@keyframes titleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -khtml-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+@-moz-keyframes subtitleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -khtml-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+  }
+  to {
+    opacity: 0.9;
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+@-webkit-keyframes subtitleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -khtml-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+  }
+  to {
+    opacity: 0.9;
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+@-o-keyframes subtitleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -khtml-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+  }
+  to {
+    opacity: 0.9;
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+@keyframes subtitleFade {
+  from {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -khtml-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+  }
+  to {
+    opacity: 0.9;
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -khtml-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -1803,7 +2031,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://img.shika-mori.top/picGO/阿求.png","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1780974619164),
+    lastupdate: new Date(1780976210498),
     sidebar: {
       for_page: ["blogger","feedback","repos","webinfo"],
       for_post: ["toc","repos"],
@@ -2702,7 +2930,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </span>
   <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
     <meta itemprop="name" content="東方行狀錄">
-    <meta itemprop="description" content="東聯印社旗下同人讀物">
+    <meta itemprop="description" content="《東方行狀錄》是以東方Project為主題的非營利同人電子期刊， 涵蓋同人創作、社群訪談、活動紀實與文化研究。
+">
   </span>
   
 
@@ -2752,7 +2981,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2025-10-26T22:36:31+00:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2025-10-26T14:36:31+00:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2025年10月26日</p>
@@ -2809,11 +3038,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 <tr>
 <td align="left"><strong>文字投稿邮箱 (mailto)</strong></td>
-<td align="left"><a href="mailto:&#x74;&#101;&#120;&#116;&#x40;&#x74;&#x6f;&#x75;&#x68;&#111;&#x75;&#99;&#x68;&#114;&#111;&#x6e;&#x69;&#99;&#x6c;&#101;&#x2e;&#99;&#111;&#x6d;">text@touhouchronicle.com</a></td>
+<td align="left"><a href="mailto:&#x74;&#101;&#120;&#x74;&#64;&#x74;&#111;&#117;&#104;&#x6f;&#117;&#x63;&#x68;&#114;&#x6f;&#110;&#105;&#x63;&#108;&#101;&#x2e;&#99;&#x6f;&#x6d;">text@touhouchronicle.com</a></td>
 </tr>
 <tr>
 <td align="left"><strong>图片投稿邮箱 (mailto)</strong></td>
-<td align="left"><a href="mailto:&#112;&#x69;&#x63;&#x40;&#x74;&#x6f;&#x75;&#x68;&#111;&#117;&#x63;&#x68;&#x72;&#111;&#x6e;&#105;&#x63;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#109;">pic@touhouchronicle.com</a></td>
+<td align="left"><a href="mailto:&#x70;&#x69;&#x63;&#64;&#116;&#x6f;&#117;&#104;&#111;&#x75;&#x63;&#104;&#114;&#x6f;&#110;&#105;&#x63;&#108;&#x65;&#x2e;&#x63;&#111;&#x6d;">pic@touhouchronicle.com</a></td>
 </tr>
 <tr>
 <td align="left"><strong>投稿咨询方式</strong></td>
@@ -2875,7 +3104,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2026-06-09T03:10:07+00:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2026-06-09T11:36:39+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2026年6月9日</p>
@@ -2996,12 +3225,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <section class="widget text desktop pjax">
   
   <header>
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Periodical",
+  "name":"東方行狀錄",
+  "url":"https://www.touhouchronicle.com",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Touhou Chronicle"
+  }
+}
+</script>
     
-      <i class="fas fa-money-check-dollar fa-fw" aria-hidden="true"></i><span class='name'>订阅我们！</span>
-    
+        <i class="fas fa-money-check-dollar fa-fw" aria-hidden="true"></i><span class='name'>订阅我们！</span>
+        
   </header>
-
-
+  
   <div class='content'>
     
       <p><b>订阅期刊</b></p>
@@ -3032,12 +3272,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <section class="widget toc-wrapper desktop mobile " id="toc-div" >
     
   <header>
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Periodical",
+  "name":"東方行狀錄",
+  "url":"https://www.touhouchronicle.com",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Touhou Chronicle"
+  }
+}
+</script>
     
-      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>文章目录</span>
-    
+        <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>文章目录</span>
+        
   </header>
-
-
+  
     <div class='content'>
         <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%95%E7%A8%BF%E9%9C%80%E6%B1%82%E4%B8%8E%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F"><span class="toc-text">投稿需求与联系方式</span></a></li></ol>
     </div>
@@ -4219,7 +4470,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"東方行狀錄","url":"https://touhouchronicle.com/","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","sameAs":["https://github.com/volantis-x"],"description":"東聯印社旗下同人讀物"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://touhouchronicle.com/","name":"東方行狀錄"}},{"@type":"ListItem","position":2,"item":{"@id":"https://touhouchronicle.com/categories/杂项/","name":"杂项"}},{"@type":"ListItem","position":2,"item":{"@id":"https://touhouchronicle.com/categories/投稿/","name":"投稿"}},{"@type":"ListItem","position":3,"item":{"@id":"https://touhouchronicle.com/example-posts/","name":"东方行状录投稿需求"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"東方行狀錄","url":"https://touhouchronicle.com/","keywords":"Touhou 東方project","description":"東聯印社旗下同人讀物","author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","description":"東聯印社旗下同人讀物"},"publisher":{"@type":"Organization","name":"東方行狀錄","url":"https://touhouchronicle.com/","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://touhouchronicle.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"东方行状录投稿需求","description":"東聯印社旗下同人讀物","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://touhouchronicle.com/example-posts/"},"author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/"},"publisher":{"@type":"Organization","name":"東方行狀錄","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"url":"https://touhouchronicle.com/example-posts/","wordCount":0,"datePublished":"2025-10-26T22:36:31.000Z","dateModified":"2026-06-09T03:10:07.590Z","articleSection":"杂项","keywords":"投稿","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"東方行狀錄","url":"https://www.touhouchronicle.com","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","sameAs":["https://github.com/volantis-x"],"description":"《東方行狀錄》是以東方Project為主題的非營利同人電子期刊， 涵蓋同人創作、社群訪談、活動紀實與文化研究。\n"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://touhouchronicle.com/","name":"東方行狀錄"}},{"@type":"ListItem","position":2,"item":{"@id":"https://touhouchronicle.com/categories/杂项/","name":"杂项"}},{"@type":"ListItem","position":2,"item":{"@id":"https://touhouchronicle.com/categories/投稿/","name":"投稿"}},{"@type":"ListItem","position":3,"item":{"@id":"https://touhouchronicle.com/example-posts/","name":"东方行状录投稿需求"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"東方行狀錄","url":"https://touhouchronicle.com/","keywords":["東方Project","Touhou Project","Touhou Chronicle","東方行狀錄","同人誌","東方同人","幻想鄉","東方文化研究"],"description":"《東方行狀錄》是以東方Project為主題的非營利同人電子期刊， 涵蓋同人創作、社群訪談、活動紀實與文化研究。\n","author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/","description":"《東方行狀錄》是以東方Project為主題的非營利同人電子期刊， 涵蓋同人創作、社群訪談、活動紀實與文化研究。\n"},"publisher":{"@type":"Organization","name":"東方行狀錄","url":"https://www.touhouchronicle.com","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://touhouchronicle.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"东方行状录投稿需求","description":"《東方行狀錄》是以東方Project為主題的非營利同人電子期刊， 涵蓋同人創作、社群訪談、活動紀實與文化研究。\n","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://touhouchronicle.com/example-posts/"},"author":{"@type":"Person","name":"東聯印社","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png"},"url":"https://touhouchronicle.com/"},"publisher":{"@type":"Organization","name":"東方行狀錄","logo":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}},"url":"https://touhouchronicle.com/example-posts/","wordCount":0,"datePublished":"2025-10-26T14:36:31.000Z","dateModified":"2026-06-09T03:36:39.639Z","articleSection":"杂项","keywords":"投稿","image":{"@type":"ImageObject","url":"https://img.shika-mori.top/picGO/阿求.png","width":192,"height":192}}]</script>
 
 
 
