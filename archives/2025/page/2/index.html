@@ -29,7 +29,7 @@
   <!-- front-matter head_begin begin -->
   <!-- front-matter head_begin end -->
     <link rel="shortcut icon" type='image/x-icon' href="https://cdn.shika-mori.top/siyuan-note/picGO/阿求.png">
-  <link rel="preload" href="https://cdn.shika-mori.top/siyuan-note/picGO/css/style.css" as="style">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preload" href="https://gcore.jsdelivr.net/gh/Neko-Tsuki/blogFont@main/YouZi/YujiSyukuStd-R-2.otf" as="font" type="font/otf" crossorigin="anonymous">
 <link rel="preload" href="https://gcore.jsdelivr.net/gh/Neko-Tsuki/blogFont@main/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -1955,8 +1955,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="https://cdn.shika-mori.top/siyuan-note/picGO/css/style.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="https://cdn.shika-mori.top/siyuan-note/picGO/css/style.css"></noscript>
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -2034,9 +2034,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"https://cdn.shika-mori.top/siyuan-note/picGO/js/app.js","parallax":"https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/parallax.js","rightMenu":"https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/rightMenu.js","rightMenus":"https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/rightMenus.js","sites":"https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/tags/sites.js","friends":"https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/tags/friends.js","contributors":"https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/tags/contributors.js","search":"https://cdn.shika-mori.top/siyuan-note/picGO/js/search/hexo.js"},"css":{"style":"https://cdn.shika-mori.top/siyuan-note/picGO/css/style.css"}},
+    cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://cdn.shika-mori.top/siyuan-note/picGO/阿求.png","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1780996943253),
+    lastupdate: new Date(1780997382311),
     sidebar: {
       for_page: ["blogger","feedback","repos","webinfo"],
       for_post: ["toc","repos"],
@@ -3322,7 +3322,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- internal -->
 
-<script src="https://cdn.shika-mori.top/siyuan-note/picGO/js/app.js"></script>
+<script src="/js/app.js"></script>
 
 
 
@@ -3527,7 +3527,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   </ul>
 </div>
-<script src="https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/rightMenus.js"></script>
+<script src="/js/plugins/rightMenus.js"></script>
 <script>
   const RightMenusFunction = {};
   
@@ -3752,19 +3752,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/tags/sites.js")
+        volantis.js("/js/plugins/tags/sites.js")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/tags/friends.js")
+        volantis.js("/js/plugins/tags/friends.js")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("https://cdn.shika-mori.top/siyuan-note/picGO/js/plugins/tags/contributors.js")
+        volantis.js("/js/plugins/tags/contributors.js")
       }
     
   };
@@ -3891,7 +3891,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("https://cdn.shika-mori.top/siyuan-note/picGO/js/search/hexo.js");
+    return volantis.js("/js/search/hexo.js");
   }
 
   function loadSearchService() {
